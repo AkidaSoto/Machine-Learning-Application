@@ -34,6 +34,7 @@ PE -> Prediction error
 R -> Reward
 
 #TransferLearningCNN
+
 Image classification has been made easy through models trained on extremely large datasets. These models are able to transfer and applied on other images with very few adjustments. 
 
 With EEG, applying a complex wavelet frequency decomposition allows the creation of "images" with frequency being the y-axis and time being the x-axis. Normally, these images are considered grayscale as only Total Power is used. However, recent studies have shown the importance of phase angle and phase preference in neuro-communication. As such, to further fit EEG data to the RGB transfer model, these two addition metrics are used.
