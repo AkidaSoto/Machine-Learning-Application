@@ -9,13 +9,12 @@ Start.mlx
 - Runs the RL models on the behavioral data.
 
 6 types of models (These and other tested models can be found under 'ReinforcementLearning/Models')
-% 6 types of models are currently available
-%'StableSimpleQ' - Standard Q learning with 2 parameters alpha, beta
-%'Neg2Q'  - Q learning with alpha seperated by valence of Prediction Error
-%'Pun2Q'  - Q learning with alpha seperated by valence of Reward
-%'StableSimpleN2Q' - Q learning with alpha seperated for Approach vs Avoidance Learning which also includes a single weight
-%'NegPun2N4Q' - Hybrid model with 8 alphas with single weight parameter
-%'NegPun2N5Q' - Hybrid model with 8 alphas and seperate weight parameters
+'StableSimpleQ' - Standard Q learning with 2 parameters alpha, beta
+'Neg2Q'  - Q learning with alpha seperated by valence of Prediction Error
+'Pun2Q'  - Q learning with alpha seperated by valence of Reward
+'StableSimpleN2Q' - Q learning with alpha seperated for Approach vs Avoidance Learning which also includes a single weight
+'NegPun2N4Q' - Hybrid model with 8 alphas with single weight parameter
+'NegPun2N5Q' - Hybrid model with 8 alphas and seperate weight parameters
 
 Output of the model with go to '\ReinforcementLearning\SampleData\Plot' as an Excel sheet with following Sheets:
 Summary_LLE: Shows model fitness for each model.
